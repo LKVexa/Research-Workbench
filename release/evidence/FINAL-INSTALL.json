@@ -1,0 +1,151 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1\\app\\workbench.py",
+        "--state",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run",
+        "--json",
+        "doctor"
+      ],
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1",
+      "exit_code": 0,
+      "label": "doctor",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "a29d94efba937024f34d760fe0decd4714495ad7e149d334acc882c6cdd17321"
+    },
+    {
+      "argv": [
+        "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1\\app\\workbench.py",
+        "--state",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run",
+        "--json",
+        "run",
+        "D0001/C0081-03",
+        "--case",
+        "baseline"
+      ],
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1",
+      "exit_code": 0,
+      "label": "python",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "85422818294e825ddba389d87e5f1d6e1d16f76e1309661a7b42b651d3bd2e2c"
+    },
+    {
+      "argv": [
+        "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1\\app\\workbench.py",
+        "--state",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run",
+        "--json",
+        "run",
+        "D0007/C0322-02",
+        "--case",
+        "correct"
+      ],
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1",
+      "exit_code": 0,
+      "label": "correct",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "a653010ad33ff4b24509633ba0cfb1eb41ba695ebf7d3a3658f8ad3480d4a9ff"
+    },
+    {
+      "argv": [
+        "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1\\app\\workbench.py",
+        "--state",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run",
+        "--json",
+        "run",
+        "D0007/C0322-02",
+        "--case",
+        "regression"
+      ],
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1",
+      "exit_code": 0,
+      "label": "regression",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "f9a4ae4965fd42ab0796faa884c2a4b98c37092a134b8399186a94b30496fada"
+    },
+    {
+      "argv": [
+        "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1\\app\\workbench.py",
+        "--state",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run",
+        "--json",
+        "verify",
+        "20261031t040705-25ad3e0d9a3b"
+      ],
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1",
+      "exit_code": 0,
+      "label": "verify",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "19e1e1a684aac4748d36ef7134c78bfa9485d53add732ea5a56a064d58730970"
+    },
+    {
+      "argv": [
+        "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1\\app\\workbench.py",
+        "--state",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run",
+        "--json",
+        "report"
+      ],
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Local_Component_Workbench_v0.1.0-rc.1",
+      "exit_code": 0,
+      "label": "report",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "72506b5b203d76ee0de289b10183d21bcceee03f339187bdd696f592f4f3537b"
+    }
+  ],
+  "example_report": {
+    "evidence_integrity": "pass",
+    "html_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run\\reports\\20261031t040711-eaa49fac\\report.html",
+    "json_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run\\reports\\20261031t040711-eaa49fac\\report.json",
+    "run_count": 3,
+    "status": "created",
+    "totals": {
+      "core_count": 377,
+      "core_original_status": {
+        "blocked": 3,
+        "complete": 61,
+        "failed": 3,
+        "partial": 310
+      },
+      "enabled_fixture_capabilities": 3,
+      "original_gates": {
+        "D0001": "fail",
+        "D0002": "fail",
+        "D0003": "fail",
+        "D0004": "fail",
+        "D0005": "fail",
+        "D0006": "fail",
+        "D0007": "fail",
+        "D0008": "fail"
+      },
+      "supporting_count": 16,
+      "supporting_original_status": {
+        "complete": 9,
+        "partial": 7
+      }
+    }
+  },
+  "example_state": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run",
+  "product_manifest_sha256": "4ad2d1d49ab7a7f6c71040b4e08013277dc1879aa6f16587d6305096004d3ff9",
+  "result": "pass"
+}

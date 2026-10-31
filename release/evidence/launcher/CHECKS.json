@@ -1,0 +1,146 @@
+[
+  {
+    "detail": null,
+    "id": "exact_moved_copy",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "id": "moved_path_contains_spaces",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "id": "state_outside_package",
+    "status": "pass"
+  },
+  {
+    "detail": 179,
+    "id": "path_lengths_supported",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "checks": [
+        {
+          "actual": "Windows",
+          "expected": "Windows",
+          "id": "platform",
+          "status": "pass"
+        },
+        {
+          "actual": "3.12.14",
+          "expected": "3.12.14",
+          "id": "python_version",
+          "status": "pass"
+        },
+        {
+          "actual": "2.3.5",
+          "expected": "2.3.5",
+          "id": "numpy_version",
+          "status": "pass"
+        },
+        {
+          "actual": "pass",
+          "expected": "pass",
+          "id": "foundation_integrity",
+          "status": "pass"
+        }
+      ],
+      "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+      "foundation_version": "0.1.0-rc.1",
+      "note": "Windows .NET execution is verified by the D0007 run; no arbitrary plugin execution is supported.",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "product_version": "0.1.0-rc.1",
+      "python_executable": "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "python_sha256": "f8b45d63047da9d9adf09892e4cc4317b859e86a93a478cc9616bc69d3b176e5",
+      "schema_version": "1.0.0",
+      "state_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb state 7598",
+      "status": "pass"
+    },
+    "id": "actual_batch_doctor",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "candidate_accepted": true,
+      "case": "baseline",
+      "check_counts": {
+        "blocked": 0,
+        "fail": 0,
+        "not_attempted": 0,
+        "pass": 6,
+        "unverified": 0
+      },
+      "component_id": "D0001/C0081-03",
+      "execution": "pass",
+      "run_id": "20261031t040345-7ef546de9e98",
+      "scientific_validation": "unverified",
+      "scope": "authored_fixture",
+      "verification": "pass"
+    },
+    "id": "actual_batch_python_baseline",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "candidate_accepted": false,
+      "case": "regression",
+      "check_counts": {
+        "blocked": 0,
+        "fail": 0,
+        "not_attempted": 0,
+        "pass": 39,
+        "unverified": 0
+      },
+      "component_id": "D0007/C0322-02",
+      "execution": "pass",
+      "run_id": "20261031t040353-535d11a5bb14",
+      "scientific_validation": "unverified",
+      "scope": "authored_fixture",
+      "verification": "pass"
+    },
+    "id": "actual_batch_csharp_regression",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "error": "Unsupported case for selected component",
+      "status": "error"
+    },
+    "id": "actual_batch_invalid_case_exit2",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "id": "actual_batch_noarg_menu_exit0",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "files": 18
+    },
+    "id": "retained_separate_run_evidence",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "id": "installed_copy_remained_immutable",
+    "status": "pass"
+  },
+  {
+    "detail": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb launch 7598",
+    "id": "only_disposable_app_removed",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "id": "state_byte_identical_after_removal",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "id": "original_candidate_unchanged",
+    "status": "pass"
+  }
+]

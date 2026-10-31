@@ -1,0 +1,3 @@
+usage: workbench.py [-h] [--state STATE] [--json]
+                    {doctor,menu,report,catalog,run,verify,resume} ...
+workbench.py: error: argument command: invalid choice: 'unknown-command' (choose from doctor, menu, report, catalog, run, verify, resume)

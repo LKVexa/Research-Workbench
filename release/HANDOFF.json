@@ -1,0 +1,30 @@
+{
+  "active_product": "local-component-workbench",
+  "deferred_products": [
+    "coding-agent",
+    "research-toolkit"
+  ],
+  "example_report": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\outputs\\Workbench_Example_Run\\reports\\20261031t040711-eaa49fac\\report.html",
+  "foundation_gates": {
+    "Q0": "pass",
+    "Q1": "pass",
+    "Q2": "pass",
+    "Q3": "pass",
+    "Q4": "pass",
+    "Q5": "pass",
+    "Q6": "pass"
+  },
+  "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+  "gates": {
+    "W01": "pass",
+    "W02": "pass",
+    "W03": "pass",
+    "W04": "pass"
+  },
+  "next_work": "Select and scope the next separate product; preserve pinned releases.",
+  "original_preservation": "9364 files unchanged",
+  "product_manifest_sha256": "4ad2d1d49ab7a7f6c71040b4e08013277dc1879aa6f16587d6305096004d3ff9",
+  "schema_version": "1.0.0",
+  "status": "released-locally",
+  "version": "0.1.0-rc.1"
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "gate": "Q1",
+  "phase": "F01",
+  "product": "foundation",
+  "result": "pass",
+  "evaluated_utc": "2026-10-31T03:52:52.616577+00:00",
+  "scope": {
+    "active_product": "workbench",
+    "foundation": "shared independently versioned dependencies",
+    "selected_executable_candidates": [
+      "D0001/C0081-03",
+      "D0007/C0322-01",
+      "D0007/C0322-02"
+    ],
+    "selection_claim": "Candidates only; Q0/Q1 do not grant execution qualification",
+    "catalog_scope": {
+      "deliveries": [
+        "D0001",
+        "D0002",
+        "D0003",
+        "D0004",
+        "D0005",
+        "D0006",
+        "D0007",
+        "D0008"
+      ],
+      "core": 377,
+      "supporting": 16
+    },
+    "excluded_source_roots": [
+      "D0003.superseded-20261028T011658",
+      "D0009 and later"
+    ],
+    "deferred_products": [
+      "coding-agent",
+      "research-toolkit"
+    ],
+    "no_new_paid_services_or_large_data_acquisition_required": true,
+    "source_root": "D:\\Deliverables\\product-work",
+    "work_root": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products",
+    "current_authorization": "User requested execution of shared foundation, then local component workbench first, keeping all three products separate and preserving original deliveries."
+  },
+  "upstream_gates": [
+    {
+      "path": "gates/Q0.json",
+      "sha256": "5f430231dd6a2b6c04b91edcd618ca215c9e45685586898c086e78b3f84db321"
+    }
+  ],
+  "checks": [
+    {
+      "id": "unique_expected_component_identities",
+      "result": "pass",
+      "observed": {
+        "core": 377,
+        "supporting": 16,
+        "unique": 393
+      }
+    },
+    {
+      "id": "blocked_absent_pairs_represented",
+      "result": "pass",
+      "observed": [
+        "D0004/P0597-03",
+        "D0004/P0597-04",
+        "D0004/P0597-05"
+      ]
+    },
+    {
+      "id": "original_status_totals_reconciled",
+      "result": "pass",
+      "observed": {
+        "complete": 61,
+        "partial": 310,
+        "failed": 3,
+        "blocked": 3
+      }
+    },
+    {
+      "id": "raw_evidence_and_discrepancies_retained",
+      "result": "pass",
+      "observed": {
+        "aggregate_discrepancy": 84,
+        "document_count_discrepancy": 26,
+        "missing_documents": 20
+      }
+    },
+    {
+      "id": "no_silent_parser_errors_or_unknown_status",
+      "result": "pass",
+      "observed": 0
+    },
+    {
+      "id": "source_intake_separate_from_execution",
+      "result": "pass",
+      "observed": {
+        "intake_only": 209,
+        "audit_enabled_executables": 0
+      }
+    },
+    {
+      "id": "importer_safety_and_normalization_tests",
+      "result": "pass",
+      "observed": "6 tests passed"
+    }
+  ],
+  "core_native_check_counts": {
+    "pass": 1438,
+    "unverified": 1182,
+    "fail": 19
+  },
+  "unresolved_findings": {
+    "count": 130,
+    "disposition": "Source discrepancies retained and normalized; execution qualification and scientific repairs are outside Q1."
+  },
+  "evidence": [
+    {
+      "path": "audit/F01-AUDIT.md",
+      "sha256": "a595cae33beec401e97e8c76e4e5101ae8056a845a9cf085d23cb4dc31d4632c"
+    },
+    {
+      "path": "audit/F01-AUDIT-ACCEPTANCE.json",
+      "sha256": "36fd3dc944f53679d9a8e8c70df0e9996a421be5b3aba92e672ac3ce4c6dcb5f"
+    },
+    {
+      "path": "audit/baseline-002/RECONCILIATION.json",
+      "sha256": "62135830ac4efaba5a63fa797befc889486d333703bec64fc4d9fb0806dc3d9b"
+    },
+    {
+      "path": "audit/baseline-002/registry/components.jsonl",
+      "sha256": "4b4a3ff5623164064e2d57313621bb8b22f0e55618bc19a2cb532506abb49396"
+    },
+    {
+      "path": "audit/baseline-002/registry/checks.jsonl",
+      "sha256": "dddce1527931f0a6e894a080e7cf2c5a6cff8b656c388b3b2ea4561041b61f96"
+    },
+    {
+      "path": "audit/baseline-002/findings.jsonl",
+      "sha256": "702c4a68fb97c900b341915fc93899447e70a876e5209e40956ed00c2239a28f"
+    },
+    {
+      "path": "audit/baseline-002/products.json",
+      "sha256": "c97366b0df09c8433f17e54ddec028a9a9882dc8485c283932f529f5d222edfe"
+    },
+    {
+      "path": "audit/baseline-002/IMPORT-REVISION.json",
+      "sha256": "1b1a8a9910b10fa1b172c84a892302f8b614ffc4205b9a29ed9e38782a178c6e"
+    },
+    {
+      "path": "audit/UNIT-TESTS.txt",
+      "sha256": "6ba0f5b6d8c35c7f4d1ef3a711b1a625bd863185c65aad128cab4edaab0bcd67"
+    },
+    {
+      "path": "audit/ORIGINAL-PRESERVATION.json",
+      "sha256": "afe60c4e4bd03aaeeae46685b42a9974dfb337b66455baa33974ecfe14751e05"
+    }
+  ],
+  "limitations": [
+    "Historical checks were parsed, not re-executed by the audit.",
+    "All original G2 failures remain unchanged.",
+    "No gate higher than Q1 is evaluated here."
+  ]
+}

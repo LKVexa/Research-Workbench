@@ -1,0 +1,1 @@
+{"error": "State directory is within a protected source/package root", "status": "error"}

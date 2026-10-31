@@ -1,0 +1,16 @@
+{
+  "evidence": [
+    "evidence/acceptance/REPORT.json",
+    "evidence/CODE-REVIEW.md",
+    "evidence/LAUNCHER-VALIDATION.json",
+    "evidence/FINAL-INSTALL.json"
+  ],
+  "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+  "gate": "W04",
+  "original_scientific_status_changed": false,
+  "product_manifest_sha256": "4ad2d1d49ab7a7f6c71040b4e08013277dc1879aa6f16587d6305096004d3ff9",
+  "product_version": "0.1.0-rc.1",
+  "result": "pass",
+  "schema_version": "1.0.0",
+  "scope": "Exact final app bytes pass fresh install and report; Windows launcher and moved-path/removal14 checks pass; state retained"
+}

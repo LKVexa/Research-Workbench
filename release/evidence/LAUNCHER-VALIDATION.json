@@ -1,0 +1,219 @@
+{
+  "candidate_manifest_sha256": "4ad2d1d49ab7a7f6c71040b4e08013277dc1879aa6f16587d6305096004d3ff9",
+  "checks": [
+    {
+      "detail": null,
+      "id": "exact_moved_copy",
+      "status": "pass"
+    },
+    {
+      "detail": null,
+      "id": "moved_path_contains_spaces",
+      "status": "pass"
+    },
+    {
+      "detail": null,
+      "id": "state_outside_package",
+      "status": "pass"
+    },
+    {
+      "detail": 179,
+      "id": "path_lengths_supported",
+      "status": "pass"
+    },
+    {
+      "detail": {
+        "checks": [
+          {
+            "actual": "Windows",
+            "expected": "Windows",
+            "id": "platform",
+            "status": "pass"
+          },
+          {
+            "actual": "3.12.14",
+            "expected": "3.12.14",
+            "id": "python_version",
+            "status": "pass"
+          },
+          {
+            "actual": "2.3.5",
+            "expected": "2.3.5",
+            "id": "numpy_version",
+            "status": "pass"
+          },
+          {
+            "actual": "pass",
+            "expected": "pass",
+            "id": "foundation_integrity",
+            "status": "pass"
+          }
+        ],
+        "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+        "foundation_version": "0.1.0-rc.1",
+        "note": "Windows .NET execution is verified by the D0007 run; no arbitrary plugin execution is supported.",
+        "platform": "Windows-10-10.0.19045-SP0",
+        "product_version": "0.1.0-rc.1",
+        "python_executable": "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python_sha256": "f8b45d63047da9d9adf09892e4cc4317b859e86a93a478cc9616bc69d3b176e5",
+        "schema_version": "1.0.0",
+        "state_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb state 7598",
+        "status": "pass"
+      },
+      "id": "actual_batch_doctor",
+      "status": "pass"
+    },
+    {
+      "detail": {
+        "candidate_accepted": true,
+        "case": "baseline",
+        "check_counts": {
+          "blocked": 0,
+          "fail": 0,
+          "not_attempted": 0,
+          "pass": 6,
+          "unverified": 0
+        },
+        "component_id": "D0001/C0081-03",
+        "execution": "pass",
+        "run_id": "20261031t040345-7ef546de9e98",
+        "scientific_validation": "unverified",
+        "scope": "authored_fixture",
+        "verification": "pass"
+      },
+      "id": "actual_batch_python_baseline",
+      "status": "pass"
+    },
+    {
+      "detail": {
+        "candidate_accepted": false,
+        "case": "regression",
+        "check_counts": {
+          "blocked": 0,
+          "fail": 0,
+          "not_attempted": 0,
+          "pass": 39,
+          "unverified": 0
+        },
+        "component_id": "D0007/C0322-02",
+        "execution": "pass",
+        "run_id": "20261031t040353-535d11a5bb14",
+        "scientific_validation": "unverified",
+        "scope": "authored_fixture",
+        "verification": "pass"
+      },
+      "id": "actual_batch_csharp_regression",
+      "status": "pass"
+    },
+    {
+      "detail": {
+        "error": "Unsupported case for selected component",
+        "status": "error"
+      },
+      "id": "actual_batch_invalid_case_exit2",
+      "status": "pass"
+    },
+    {
+      "detail": null,
+      "id": "actual_batch_noarg_menu_exit0",
+      "status": "pass"
+    },
+    {
+      "detail": {
+        "files": 18
+      },
+      "id": "retained_separate_run_evidence",
+      "status": "pass"
+    },
+    {
+      "detail": null,
+      "id": "installed_copy_remained_immutable",
+      "status": "pass"
+    },
+    {
+      "detail": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb launch 7598",
+      "id": "only_disposable_app_removed",
+      "status": "pass"
+    },
+    {
+      "detail": null,
+      "id": "state_byte_identical_after_removal",
+      "status": "pass"
+    },
+    {
+      "detail": null,
+      "id": "original_candidate_unchanged",
+      "status": "pass"
+    }
+  ],
+  "commands": [
+    {
+      "command_line": "\"C:\\WINDOWS\\system32\\cmd.exe\" /d /s /c \"\"C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb launch 7598\\Workbench.cmd\" --json doctor\"",
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation",
+      "exit_code": 0,
+      "scenario": "doctor",
+      "state_environment": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb state 7598",
+      "stderr_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\doctor.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdin": null,
+      "stdout_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\doctor.stdout.log",
+      "stdout_sha256": "1d873ed50309ba522e5c9fa9ac126fa32faa176da32d812f6a3d9194a5c86b5b"
+    },
+    {
+      "command_line": "\"C:\\WINDOWS\\system32\\cmd.exe\" /d /s /c \"\"C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb launch 7598\\Workbench.cmd\" --json run D0001/C0081-03 --case baseline\"",
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation",
+      "exit_code": 0,
+      "scenario": "python_baseline",
+      "state_environment": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb state 7598",
+      "stderr_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\python_baseline.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdin": null,
+      "stdout_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\python_baseline.stdout.log",
+      "stdout_sha256": "940608e2d0f1acbf06ab8a88543619edc9228488135611889891bf528268e8a4"
+    },
+    {
+      "command_line": "\"C:\\WINDOWS\\system32\\cmd.exe\" /d /s /c \"\"C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb launch 7598\\Workbench.cmd\" --json run D0007/C0322-02 --case regression\"",
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation",
+      "exit_code": 0,
+      "scenario": "csharp_regression",
+      "state_environment": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb state 7598",
+      "stderr_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\csharp_regression.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdin": null,
+      "stdout_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\csharp_regression.stdout.log",
+      "stdout_sha256": "eed51fba3aa29de82dad8904402453cc6ee2ec00d38aab6b8da4abe69f55f2c5"
+    },
+    {
+      "command_line": "\"C:\\WINDOWS\\system32\\cmd.exe\" /d /s /c \"\"C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb launch 7598\\Workbench.cmd\" --json run D0007/C0322-02 --case unrecognized\"",
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation",
+      "exit_code": 2,
+      "scenario": "invalid_case",
+      "state_environment": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb state 7598",
+      "stderr_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\invalid_case.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdin": null,
+      "stdout_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\invalid_case.stdout.log",
+      "stdout_sha256": "2edd2b47190a37fd1af56584493eaa1e02d6876856ab546d80527209dd6657b6"
+    },
+    {
+      "command_line": "\"C:\\WINDOWS\\system32\\cmd.exe\" /d /s /c \"\"C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb launch 7598\\Workbench.cmd\"\"",
+      "cwd": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation",
+      "exit_code": 0,
+      "scenario": "menu_no_arguments",
+      "state_environment": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb state 7598",
+      "stderr_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\menu_no_arguments.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdin": "0\n\n",
+      "stdout_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598\\menu_no_arguments.stdout.log",
+      "stdout_sha256": "4419fad118d4b468c9ce5e2bd87f901be3c658c4d0f824fd1a7295f29ea56c9a"
+    }
+  ],
+  "logs": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\products\\workbench\\review\\launcher-logs-7598",
+  "moved_app_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb launch 7598",
+  "product": "local-component-workbench",
+  "result": "pass",
+  "retained_state_path": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\wb state 7598",
+  "schema_version": "1.0.0",
+  "scope": "Actual Windows .cmd entry, both adapters, invalid request, no-argument menu, relocation and first-release removal on a disposable copy",
+  "source_candidate": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\workbench-candidate-001"
+}

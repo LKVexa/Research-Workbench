@@ -1,0 +1,646 @@
+[
+  {
+    "detail": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+    "scenario": "manifest_identity",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "checks": [
+        {
+          "actual": "Windows",
+          "expected": "Windows",
+          "id": "platform",
+          "status": "pass"
+        },
+        {
+          "actual": "3.12.14",
+          "expected": "3.12.14",
+          "id": "python_version",
+          "status": "pass"
+        },
+        {
+          "actual": "2.3.5",
+          "expected": "2.3.5",
+          "id": "numpy_version",
+          "status": "pass"
+        },
+        {
+          "actual": "pass",
+          "expected": "pass",
+          "id": "foundation_integrity",
+          "status": "pass"
+        }
+      ],
+      "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+      "foundation_version": "0.1.0-rc.1",
+      "note": "Windows .NET execution is verified by the D0007 run; no arbitrary plugin execution is supported.",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "python_executable": "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "python_sha256": "f8b45d63047da9d9adf09892e4cc4317b859e86a93a478cc9616bc69d3b176e5",
+      "schema_version": "1.0.0",
+      "status": "pass"
+    },
+    "scenario": "doctor",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "core_count": 377,
+      "core_original_status": {
+        "blocked": 3,
+        "complete": 61,
+        "failed": 3,
+        "partial": 310
+      },
+      "enabled_fixture_capabilities": 3,
+      "original_gates": {
+        "D0001": "fail",
+        "D0002": "fail",
+        "D0003": "fail",
+        "D0004": "fail",
+        "D0005": "fail",
+        "D0006": "fail",
+        "D0007": "fail",
+        "D0008": "fail"
+      },
+      "supporting_count": 16,
+      "supporting_original_status": {
+        "complete": 9,
+        "partial": 7
+      }
+    },
+    "scenario": "catalog_core_377",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "blocked": 3,
+      "complete": 61,
+      "failed": 3,
+      "partial": 310
+    },
+    "scenario": "catalog_core_statuses",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "core_count": 377,
+      "core_original_status": {
+        "blocked": 3,
+        "complete": 61,
+        "failed": 3,
+        "partial": 310
+      },
+      "enabled_fixture_capabilities": 3,
+      "original_gates": {
+        "D0001": "fail",
+        "D0002": "fail",
+        "D0003": "fail",
+        "D0004": "fail",
+        "D0005": "fail",
+        "D0006": "fail",
+        "D0007": "fail",
+        "D0008": "fail"
+      },
+      "supporting_count": 16,
+      "supporting_original_status": {
+        "complete": 9,
+        "partial": 7
+      }
+    },
+    "scenario": "catalog_supporting_16",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "original_gates_preserved",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "only_three_executable_components",
+    "status": "pass"
+  },
+  {
+    "detail": "Component is not executable: Source metadata only; original method not implemented or validated.",
+    "scenario": "d0006_intake_execution_disabled",
+    "status": "pass"
+  },
+  {
+    "detail": "Component is not executable: operator skip D0004-OPSKIP-2026-10-28-1001: not opened, not run",
+    "scenario": "d0004_blocked_execution_disabled",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      [
+        "D0001/C0081-03",
+        "baseline"
+      ],
+      [
+        "D0001/C0081-03",
+        "negative-control"
+      ],
+      [
+        "D0007/C0322-01",
+        "all"
+      ],
+      [
+        "D0007/C0322-01",
+        "initial"
+      ],
+      [
+        "D0007/C0322-01",
+        "correct"
+      ],
+      [
+        "D0007/C0322-01",
+        "regression"
+      ],
+      [
+        "D0007/C0322-02",
+        "all"
+      ],
+      [
+        "D0007/C0322-02",
+        "initial"
+      ],
+      [
+        "D0007/C0322-02",
+        "correct"
+      ],
+      [
+        "D0007/C0322-02",
+        "regression"
+      ]
+    ],
+    "scenario": "ten_component_case_combinations",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035137-14a9f36e46d5",
+      "20261031t035140-aeeede822760"
+    ],
+    "scenario": "fresh_execution_D0001_C0081-03_baseline",
+    "status": "pass"
+  },
+  {
+    "detail": "e41e2f6f01cacce2917aff0bf41d061cd18e2ebd18aa03b661a0442a51650ceb",
+    "scenario": "repeat_payload_identical_D0001_C0081-03_baseline",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035137-14a9f36e46d5",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035140-aeeede822760",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035149-7f72c54b3520",
+      "20261031t035153-47524f2dbe19"
+    ],
+    "scenario": "fresh_execution_D0001_C0081-03_negative-control",
+    "status": "pass"
+  },
+  {
+    "detail": "5f1bf44b94ad90039629f945b42d3555e202d72c64f3bee5af047f3e75979b1a",
+    "scenario": "repeat_payload_identical_D0001_C0081-03_negative-control",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035149-7f72c54b3520",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035153-47524f2dbe19",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035157-7aa90df63d0e",
+      "20261031t035201-46408554c382"
+    ],
+    "scenario": "fresh_execution_D0007_C0322-01_all",
+    "status": "pass"
+  },
+  {
+    "detail": "c4f31385365617166437778d5e2836395f713f0b1a0962a9b3b9273542052034",
+    "scenario": "repeat_payload_identical_D0007_C0322-01_all",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035157-7aa90df63d0e",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035201-46408554c382",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035204-50bc3d581876",
+      "20261031t035208-8bbfc5de6fbd"
+    ],
+    "scenario": "fresh_execution_D0007_C0322-01_initial",
+    "status": "pass"
+  },
+  {
+    "detail": "7328dfc6d783618731f9fdea705ec44c6aafc6160f257f83e8ccee8435aa295f",
+    "scenario": "repeat_payload_identical_D0007_C0322-01_initial",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035204-50bc3d581876",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035208-8bbfc5de6fbd",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035214-781c39d5b6e6",
+      "20261031t035222-6376b8489698"
+    ],
+    "scenario": "fresh_execution_D0007_C0322-01_correct",
+    "status": "pass"
+  },
+  {
+    "detail": "451a31a1a7a65b20ab6a23de1bc05af980d4f662a738f29a1b3e2101accb1259",
+    "scenario": "repeat_payload_identical_D0007_C0322-01_correct",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035214-781c39d5b6e6",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035222-6376b8489698",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035227-ed0062476b19",
+      "20261031t035230-717c36c744c9"
+    ],
+    "scenario": "fresh_execution_D0007_C0322-01_regression",
+    "status": "pass"
+  },
+  {
+    "detail": "c48563840389547c3d5e45b3342a540911c85831660456028405df689019014c",
+    "scenario": "repeat_payload_identical_D0007_C0322-01_regression",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035227-ed0062476b19",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035230-717c36c744c9",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035249-95bec9828283",
+      "20261031t035253-023a26a58195"
+    ],
+    "scenario": "fresh_execution_D0007_C0322-02_all",
+    "status": "pass"
+  },
+  {
+    "detail": "984411e00f0548c2bc0ea241159fba41bd04412f58a1f84c625f41ee5c33fbfd",
+    "scenario": "repeat_payload_identical_D0007_C0322-02_all",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035249-95bec9828283",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035253-023a26a58195",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035257-056dbe6814ae",
+      "20261031t035305-d7d8333d74e3"
+    ],
+    "scenario": "fresh_execution_D0007_C0322-02_initial",
+    "status": "pass"
+  },
+  {
+    "detail": "10713f71eeb7f3d5f7404806d7304ae50e3fdccf2f23748c4e60dcbd0d88ea7a",
+    "scenario": "repeat_payload_identical_D0007_C0322-02_initial",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035257-056dbe6814ae",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035305-d7d8333d74e3",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035312-2cad3d8a6555",
+      "20261031t035316-4b6c48680d40"
+    ],
+    "scenario": "fresh_execution_D0007_C0322-02_correct",
+    "status": "pass"
+  },
+  {
+    "detail": "7a7c0f145936a0614a5859559117d0b714a60b23574ad1b5005d7f522da880fe",
+    "scenario": "repeat_payload_identical_D0007_C0322-02_correct",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035312-2cad3d8a6555",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035316-4b6c48680d40",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035319-300ee3cfcb17",
+      "20261031t035323-0eb4eb1aa382"
+    ],
+    "scenario": "fresh_execution_D0007_C0322-02_regression",
+    "status": "pass"
+  },
+  {
+    "detail": "03775bb184c8eca4c6957e2ed6e162e7078bb6def7816ab454b75e6bb63690d0",
+    "scenario": "repeat_payload_identical_D0007_C0322-02_regression",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035319-300ee3cfcb17",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "run_integrity_20261031t035323-0eb4eb1aa382",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      {
+        "actual": 14,
+        "description": "hand-counted trajectory: 7+3+4",
+        "expected": 14,
+        "id": "known_example",
+        "status": "pass"
+      },
+      {
+        "actual": 0,
+        "description": "empty trajectory counts 0",
+        "expected": 0,
+        "id": "empty",
+        "status": "pass"
+      },
+      {
+        "actual": 605,
+        "description": "matches collections-free recount",
+        "expected": 605,
+        "id": "recomputable",
+        "status": "pass"
+      },
+      {
+        "actual": "ViolationError: unknown token role(s): ['sys']",
+        "description": "unknown role rejected",
+        "expected": "raises ViolationError",
+        "id": "unknown_role",
+        "status": "pass"
+      },
+      {
+        "actual": true,
+        "description": "Original checks, records, iterations and repair log match; runtime fingerprint is recorded separately.",
+        "expected": true,
+        "id": "historical_semantic_match",
+        "status": "pass"
+      }
+    ],
+    "scenario": "python_original605",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "python_faulty_counter_rejected",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "correct_accepted_D0007/C0322-01",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "regression_rejected_D0007/C0322-01",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "f2p_alone_insufficient_D0007/C0322-01",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "correct_accepted_D0007/C0322-02",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "regression_rejected_D0007/C0322-02",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "f2p_alone_insufficient_D0007/C0322-02",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "argv": [
+        "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\validation\\foundation-candidate-003\\adapters\\python\\entry.py",
+        "--case",
+        "baseline"
+      ],
+      "artifacts": {
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "case": "baseline",
+      "checks": [],
+      "component_id": "D0001/C0081-03",
+      "error": {
+        "message": "Adapter process timeout, exit 1",
+        "type": "FoundationError"
+      },
+      "execution": "fail",
+      "finished_at": "2026-10-31T03:53:27.552707+00:00",
+      "foundation_manifest_sha256": "e01d3f340239f4abe0daa27cb3e7c64190f95f4f3a0419f493bc14e7b07d571d",
+      "process": {
+        "elapsed_seconds": 0.062,
+        "environment": {
+          "NUMBER_OF_PROCESSORS": "8",
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "PYTHONDONTWRITEBYTECODE": "1",
+          "PYTHONUTF8": "1",
+          "SystemRoot": "C:\\WINDOWS",
+          "TEMP": "C:\\Users\\russe\\AppData\\Local\\Temp",
+          "TMP": "C:\\Users\\russe\\AppData\\Local\\Temp",
+          "WINDIR": "C:\\WINDOWS"
+        },
+        "exit_code": 1,
+        "limits": {
+          "active_processes": 1,
+          "memory_mb": 512,
+          "output_bytes_per_stream": 1048576,
+          "timeout_seconds": 0.05
+        },
+        "outcome": "timeout"
+      },
+      "request_sha256": "edf063d2120a4bc06ae6c421a68d603c4b7757a97a149638cf6baf9cc5973d65",
+      "run_id": "20261031t035327-2af17afb76d8",
+      "schema_version": "1.0.0",
+      "scientific_validation": "unverified",
+      "scope": "authored_fixture",
+      "started_at": "2026-10-31T03:53:27.487969+00:00",
+      "verification": "fail"
+    },
+    "scenario": "actual_timeout_records_failure",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "failed_run_retains_integrity",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "child": "20261031t035330-32cda368b368",
+      "repeat": {
+        "parent_run_id": "20261031t035327-2af17afb76d8",
+        "resume_reused": true,
+        "run_id": "20261031t035330-32cda368b368"
+      }
+    },
+    "scenario": "repeat_resume_reuses_one_child",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "resume_preserves_parent_evidence",
+    "status": "pass"
+  },
+  {
+    "detail": "Completed passing runs are immutable; use run or fresh verification",
+    "scenario": "passing_run_cannot_resume",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "20261031t035342-2a5548d8ed47",
+      "20261031t035342-6a67c2c5d1a2"
+    ],
+    "scenario": "two_concurrent_calls",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "concurrent_results_do_not_mix",
+    "status": "pass"
+  },
+  {
+    "detail": "Run artifact integrity mismatch: stdout.log",
+    "scenario": "tampered_run_artifact_rejected",
+    "status": "pass"
+  },
+  {
+    "detail": {
+      "argv": [
+        "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\foundation\\tests\\integration-review\\review.py",
+        "--candidate",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\foundation\\tests\\integration-review\\review-94ac1b94d5d14e66afc920dc871f6990\\moved package with spaces",
+        "--smoke",
+        "--output",
+        "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\foundation\\tests\\integration-review\\review-94ac1b94d5d14e66afc920dc871f6990\\RELOCATED.json"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    "scenario": "relocated_fresh_interpreter",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "relocated_uses_own_modules",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "C:\\Users\\russe\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\foundation\\tests\\integration-review\\review-94ac1b94d5d14e66afc920dc871f6990\\moved package with spaces\\adapters\\python\\entry.py",
+      "--case",
+      "baseline"
+    ],
+    "scenario": "relocated_adapter_python",
+    "status": "pass"
+  },
+  {
+    "detail": [
+      "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products\\foundation\\tests\\integration-review\\review-94ac1b94d5d14e66afc920dc871f6990\\moved package with spaces\\adapters\\d0007\\bin\\WorkbenchD7.exe",
+      "--component",
+      "D0007/C0322-02",
+      "--case",
+      "regression"
+    ],
+    "scenario": "relocated_adapter_csharp",
+    "status": "pass"
+  },
+  {
+    "detail": "Package integrity mismatch: adapters/python/entry.py",
+    "scenario": "tampered_package_rejected",
+    "status": "pass"
+  },
+  {
+    "detail": null,
+    "scenario": "candidate_bytes_unchanged",
+    "status": "pass"
+  }
+]

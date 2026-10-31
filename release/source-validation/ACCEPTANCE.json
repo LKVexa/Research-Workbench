@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "product": "local-component-workbench",
+  "scope": "Independent black-box validation of the exact packaged CLI; no working-source imports",
+  "required_commands": ["doctor", "catalog", "run", "verify", "resume", "report", "menu"],
+  "expected_catalog": {"core": 377, "supporting": 16, "total": 393, "core_statuses": {"complete": 61, "partial": 310, "failed": 3, "blocked": 3}},
+  "expected_capabilities": {
+    "D0001/C0081-03": ["baseline", "negative-control"],
+    "D0007/C0322-01": ["all", "initial", "correct", "regression"],
+    "D0007/C0322-02": ["all", "initial", "correct", "regression"]
+  },
+  "disabled_controls": ["D0006/P0028-01", "D0004/P0597-03"],
+  "required_scenarios": [
+    "doctor profile passes and foundation integrity verified",
+    "full catalog counts and original status counts preserved",
+    "executable-only query includes only pinned capabilities and declared cases",
+    "catalog query and collection filters work",
+    "metadata-only and blocked records cannot run",
+    "Python baseline actually runs and matches frozen evidence",
+    "C# correct candidate runs and is accepted",
+    "C# regression diagnostic passes while candidate acceptance remains false",
+    "verify validates saved evidence without creating a run",
+    "fresh verify creates a distinct attempt with equivalent deterministic outcome",
+    "simulated interrupted request has explicit incomplete state and resume creates one linked fresh attempt",
+    "repeat resume reuses existing child without duplicate execution",
+    "report links evidence and preserves fixture/scientific claim boundaries",
+    "malformed run evidence produces an integrity-fail entry rather than aborting report",
+    "HTML report escapes hostile text in an error field",
+    "invalid case, component and timeout are rejected",
+    "state paths within the package and original delivery roots are rejected before write",
+    "noninteractive default menu exits without hanging",
+    "exact package files remain unchanged throughout acceptance"
+  ],
+  "resource_bounds": {"per_command_wall_seconds": 120, "captured_stdout_bytes": 4194304, "captured_stderr_bytes": 1048576},
+  "negative_test_policy": "Fault injection changes only separately created test run state, never package bytes or original deliveries. Candidate scientific results are not relabeled by diagnostic success.",
+  "pass_rule": "Every required scenario passes against the same immutable candidate; metadata and source documents do not substitute for execution evidence."
+}

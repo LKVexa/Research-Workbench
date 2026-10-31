@@ -1,0 +1,39 @@
+test_imported_modules_belong_to_selected_code_root (__main__.ImportBoundaryTests.test_imported_modules_belong_to_selected_code_root) ... ok
+test_duplicate_keys_rejected_at_every_depth (__main__.ParsingTests.test_duplicate_keys_rejected_at_every_depth) ... ok
+test_nonfinite_literals_and_overflow_rejected (__main__.ParsingTests.test_nonfinite_literals_and_overflow_rejected) ... ok
+test_schema_rejects_direct_nonfinite_numbers (__main__.ParsingTests.test_schema_rejects_direct_nonfinite_numbers) ... ok
+test_schema_rejects_wrong_types_extra_fields_and_unsupported_vocabulary (__main__.ParsingTests.test_schema_rejects_wrong_types_extra_fields_and_unsupported_vocabulary) ... ok
+test_size_and_nesting_limits (__main__.ParsingTests.test_size_and_nesting_limits) ... ok
+test_atomic_immutable_write_retains_original_and_cleans_pending (__main__.PathAndEvidenceTests.test_atomic_immutable_write_retains_original_and_cleans_pending) ... ok
+test_invalid_run_ids_rejected (__main__.PathAndEvidenceTests.test_invalid_run_ids_rejected) ... ok
+test_package_hash_tamper_and_unmanifested_shadow_rejected (__main__.PathAndEvidenceTests.test_package_hash_tamper_and_unmanifested_shadow_rejected) ... ok
+test_parent_symlink_rejected_when_host_allows_creation (__main__.PathAndEvidenceTests.test_parent_symlink_rejected_when_host_allows_creation) ... ok
+test_protected_state_roots_rejected (__main__.PathAndEvidenceTests.test_protected_state_roots_rejected) ... ok
+test_traversal_and_absolute_paths_rejected (__main__.PathAndEvidenceTests.test_traversal_and_absolute_paths_rejected) ... ok
+test_active_process_limit_blocks_children (__main__.ProcessTests.test_active_process_limit_blocks_children) ... ok
+test_environment_does_not_forward_credential_like_variable (__main__.ProcessTests.test_environment_does_not_forward_credential_like_variable) ... ok
+test_job_close_kills_its_process (__main__.ProcessTests.test_job_close_kills_its_process) ... ok
+test_memory_limit_rejects_oversized_allocation (__main__.ProcessTests.test_memory_limit_rejects_oversized_allocation) ... ok
+test_stdout_and_stderr_are_bounded (__main__.ProcessTests.test_stdout_and_stderr_are_bounded) ... ok
+test_timeout_and_process_termination (__main__.ProcessTests.test_timeout_and_process_termination) ... ok
+test_completed_result_without_receipt_is_incomplete_not_unhandled_error (__main__.RecoveryTests.test_completed_result_without_receipt_is_incomplete_not_unhandled_error) ... ok
+test_interrupted_request_is_not_success (__main__.RecoveryTests.test_interrupted_request_is_not_success) ... ok
+test_linked_child_corrupted_profile_rejected_even_with_updated_digest (__main__.RecoveryTests.test_linked_child_corrupted_profile_rejected_even_with_updated_digest) ... ok
+test_linked_child_folder_identity_rejected (__main__.RecoveryTests.test_linked_child_folder_identity_rejected) ... ok
+test_lock_excludes_concurrent_resume_and_recovers_after_release (__main__.RecoveryTests.test_lock_excludes_concurrent_resume_and_recovers_after_release) ... ok
+test_malformed_receipt_sidecar_does_not_abort_report (__main__.RecoveryTests.test_malformed_receipt_sidecar_does_not_abort_report) ... ok
+test_malformed_request_hash_sidecar_does_not_abort_report (__main__.RecoveryTests.test_malformed_request_hash_sidecar_does_not_abort_report) ... ok
+test_malformed_resume_marker_has_structured_failure (__main__.RecoveryTests.test_malformed_resume_marker_has_structured_failure) ... ok
+test_request_tampering_rejected (__main__.RecoveryTests.test_request_tampering_rejected) ... ok
+test_request_without_digest_has_explicit_interrupted_state_and_recovers (__main__.RecoveryTests.test_request_without_digest_has_explicit_interrupted_state_and_recovers) ... ok
+test_reserved_child_without_digest_links_and_remains_incomplete (__main__.RecoveryTests.test_reserved_child_without_digest_links_and_remains_incomplete) ... ok
+test_reserved_resume_recovers_existing_child_without_duplicate_execution (__main__.RecoveryTests.test_reserved_resume_recovers_existing_child_without_duplicate_execution) ... ok
+test_reserved_resume_rejects_tampered_child_request (__main__.RecoveryTests.test_reserved_resume_rejects_tampered_child_request) ... ok
+test_reserved_resume_without_child_can_start_one_attempt (__main__.RecoveryTests.test_reserved_resume_without_child_can_start_one_attempt) ... ok
+test_resume_after_result_commit_keeps_old_result_and_creates_new_attempt (__main__.RecoveryTests.test_resume_after_result_commit_keeps_old_result_and_creates_new_attempt) ... ok
+test_resume_creates_one_linked_child_then_reuses_it (__main__.RecoveryTests.test_resume_creates_one_linked_child_then_reuses_it) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 2.037s
+
+OK

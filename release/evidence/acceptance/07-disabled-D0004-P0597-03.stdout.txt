@@ -1,0 +1,1 @@
+{"error": "Component is not executable: operator skip D0004-OPSKIP-2026-10-28-1001: not opened, not run", "status": "error"}

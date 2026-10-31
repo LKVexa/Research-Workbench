@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0.0",
+  "gate": "Q0",
+  "phase": "F00",
+  "product": "foundation",
+  "result": "pass",
+  "evaluated_utc": "2026-10-31T03:52:52.613214+00:00",
+  "scope": {
+    "active_product": "workbench",
+    "foundation": "shared independently versioned dependencies",
+    "selected_executable_candidates": [
+      "D0001/C0081-03",
+      "D0007/C0322-01",
+      "D0007/C0322-02"
+    ],
+    "selection_claim": "Candidates only; Q0/Q1 do not grant execution qualification",
+    "catalog_scope": {
+      "deliveries": [
+        "D0001",
+        "D0002",
+        "D0003",
+        "D0004",
+        "D0005",
+        "D0006",
+        "D0007",
+        "D0008"
+      ],
+      "core": 377,
+      "supporting": 16
+    },
+    "excluded_source_roots": [
+      "D0003.superseded-20261028T011658",
+      "D0009 and later"
+    ],
+    "deferred_products": [
+      "coding-agent",
+      "research-toolkit"
+    ],
+    "no_new_paid_services_or_large_data_acquisition_required": true,
+    "source_root": "D:\\Deliverables\\product-work",
+    "work_root": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products",
+    "current_authorization": "User requested execution of shared foundation, then local component workbench first, keeping all three products separate and preserving original deliveries."
+  },
+  "checks": [
+    {
+      "id": "current_user_authorization_and_selected_scope",
+      "result": "pass",
+      "evidence": {
+        "path": "docs/PRODUCT_CHARTER.md",
+        "sha256": "2c4fbd5aefe28226e7765e7e6fe48e4dc02812a6668e94459f67ec346d6ac222"
+      }
+    },
+    {
+      "id": "isolated_workspace_and_separate_product_roots",
+      "result": "pass",
+      "observed": "C:\\Users\\russe\\Documents\\Codex\\2026-10-30\\ple\\work\\component-products"
+    },
+    {
+      "id": "eight_notes_and_delivery_roots_accounted",
+      "result": "pass",
+      "observed": {
+        "notes": 8,
+        "deliveries": 8
+      }
+    },
+    {
+      "id": "full_original_inventory_and_no_reparse_points",
+      "result": "pass",
+      "observed": {
+        "files": 9364,
+        "bytes": 473675241
+      }
+    },
+    {
+      "id": "original_delivery_bytes_preserved",
+      "result": "pass",
+      "observed": {
+        "changed": 0,
+        "added": 0,
+        "removed": 0
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/PRODUCT_CHARTER.md",
+      "sha256": "2c4fbd5aefe28226e7765e7e6fe48e4dc02812a6668e94459f67ec346d6ac222"
+    },
+    {
+      "path": "docs/PRESERVATION-PLAN.md",
+      "sha256": "17f7fe834b880752592d0490737a66bb3d0bc18e192e1fe7d4109b5014349ea1"
+    },
+    {
+      "path": "audit/baseline-002/inventory-summary.json",
+      "sha256": "465a94bf021003f83d9991e7bae857bfaf752ae27a363b239a1977e99e7019e1"
+    },
+    {
+      "path": "audit/baseline-002/original-hashes.jsonl",
+      "sha256": "0eaf5de58463dd566ecad43b766129517e0d06468eb9278fa4bf071aeef4e722"
+    },
+    {
+      "path": "audit/ORIGINAL-PRESERVATION.json",
+      "sha256": "afe60c4e4bd03aaeeae46685b42a9974dfb337b66455baa33974ecfe14751e05"
+    },
+    {
+      "path": "audit/ORIGINAL-PRESERVATION.stdout.txt",
+      "sha256": "69ac83855b97c144fb10b58ed312ddd8b038129be6cc8f84ad978d5ffb6fdff2"
+    },
+    {
+      "path": "audit/import_deliveries.py",
+      "sha256": "e6e0d77e5d733e8bb7172a1e9517fad4ae4158f105a51c8e7d6cd7d9bb95d46c"
+    }
+  ],
+  "limitations": [
+    "Scope and preservation gate only; no downstream scientific, execution or release gate is inferred."
+  ]
+}

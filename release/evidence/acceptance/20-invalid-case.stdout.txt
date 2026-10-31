@@ -1,0 +1,1 @@
+{"error": "Unsupported case for selected component", "status": "error"}

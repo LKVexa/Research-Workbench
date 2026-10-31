@@ -1,0 +1,7 @@
+
+Local Component Workbench 0.1.0-rc.1
+Original deliveries stay unchanged. This release runs bounded fixtures.
+
+1 Catalog   2 Python baseline   3 C# regression check
+4 Verify saved runs   5 Create report   6 Check setup   0 Exit
+Choose: 
